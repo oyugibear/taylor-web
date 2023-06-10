@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { BsTruck } from 'react-icons/bs'
+import { BsAirplane, BsHouse, BsTruck } from 'react-icons/bs'
 
 const Mirage = () => {
   return (
@@ -15,12 +15,60 @@ const Mirage = () => {
                 and logistics services efficiently.
             </p>
 
-            <div className='flex flex-col md:flex-row mt-12'>
-                <div className='w-full h-full max-w-[383px] md:max-w-[519px] max-h-[289px] md:max-h-[458px]'>
-                    <div className=' rounded-lg bg-[#DB421B]/40 py-8 w-full max-w-[279px] md:max-w-[340px] h-full md:max-h-[275px] max-h-[173px] mx-auto p-2 flex flex-row justify-center items-center absolute z-10'>
-                        <div className='flex flex-col '>
-                            <BsTruck />
-                            <p className='mt-4'>Household moving</p>
+            <div className='flex flex-col md:flex-row mt-12 h-full justify-between  items-center'>
+                <div className='w-full h-full max-w-[383px] relative md:max-w-[519px] max-h-[289px] my-4 py-4 md:max-h-[458px] mx-4'>
+                    <div className='min-w-[279px] min-h-[200px] rounded-lg bg-[#DB421B]/80 py-8 w-full bottom-0 max-w-[279px] md:max-w-[340px] h-full md:max-h-[275px] max-h-[173px] mx-auto p-2 flex flex-row justify-center items-center absolute z-10'>
+                        <div className='flex flex-col text-white'>
+                            <BsTruck size={30} />
+                            <p className='mt-2 text-lg'>Household moving</p>
+
+                            <p className='mt-2 text-sm'>
+                                As your household moving company, 
+                                we&apos;re probably like you in that we don&apos;t 
+                                like surprises.
+                            </p>
+
+                            <button className='bg-white text-[#DB421B] text-xs rounded-full py-2 px-4 w-[100px] mt-4'>
+                                View
+                            </button>
+                        </div>
+                    </div>                  
+                    <Image src='/assets/home/mirage/pic.png' alt='Our services' width={383} height={289} className='w-full h-full' />
+                </div>
+                <div className='w-full h-full max-w-[383px] relative md:max-w-[519px] max-h-[289px] my-4 py-4 md:max-h-[458px] mx-4'>
+                    <div className='min-w-[279px] min-h-[200px] rounded-lg bg-[#DB421B]/80 py-8 w-full bottom-0 max-w-[279px] md:max-w-[340px] h-full md:max-h-[275px] max-h-[173px] mx-auto p-2 flex flex-row justify-center items-center absolute z-10'>
+                        <div className='flex flex-col text-white'>
+                            <BsHouse size={30} />
+                            <p className='mt-2 text-lg'>Corporate moving</p>
+
+                            <p className='mt-2 text-sm'>
+                                As your household moving company, 
+                                we&apos;re probably like you in that we don&apos;t 
+                                like surprises.
+                            </p>
+
+                            <button className='bg-white text-[#DB421B] rounded-full py-2 px-4 w-[100px] mt-4 text-xs'>
+                                View
+                            </button>
+                        </div>
+                    </div>                  
+                    <Image src='/assets/home/mirage/pic.png' alt='Our services' width={383} height={289} className='w-full h-full' />
+                </div>
+                <div className='w-full h-full max-w-[383px] relative md:max-w-[519px] max-h-[289px] my-4 py-4 md:max-h-[458px] mx-4'>
+                    <div className='min-w-[279px] min-h-[200px] rounded-lg bg-[#DB421B]/80 py-8 w-full bottom-0 max-w-[279px] md:max-w-[340px] h-full md:max-h-[275px] max-h-[173px] mx-auto p-2 flex flex-row justify-center items-center absolute z-10'>
+                        <div className='flex flex-col text-white'>
+                            <BsAirplane size={30} />
+                            <p className='mt-2 text-lg'>Interational moving</p>
+
+                            <p className='mt-2 text-sm'>
+                                As your household moving company, 
+                                we&apos;re probably like you in that we don&apos;t 
+                                like surprises.
+                            </p>
+
+                            <button className='bg-white text-[#DB421B] text-xs rounded-full py-2 px-4 w-[100px] mt-4'>
+                                View
+                            </button>
                         </div>
                     </div>                  
                     <Image src='/assets/home/mirage/pic.png' alt='Our services' width={383} height={289} className='w-full h-full' />

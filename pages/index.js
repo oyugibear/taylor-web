@@ -3,6 +3,9 @@ import Image from 'next/image'
 import Featured from '../components/homepage/Featured'
 import Services from '../components/homepage/Services'
 import Mirage from '../components/homepage/Mirage'
+import Cta from '../components/homepage/Cta'
+import Clients from '../components/homepage/Clients'
+import Testimonials from '../components/homepage/Testimonials'
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <Featured />
       <Services />
       <Mirage />
+      <Cta />
+      <Clients />
+      <Testimonials />
 
       
     </div>

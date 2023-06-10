@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import {BsClipboard, BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -22,21 +23,31 @@ const Navbar = () => {
             <div className='max-w-[1720px] w-full flex flex-row justify-between'>
                 <Image src='/assets/General/logo.svg' width={205} height={48}  alt='Taylor Movers Logo' />
                 <div className='flex flex-row items-center text-sm'>
-                    <div className='mr-6'>
-                        <p>Home</p>
-                    </div>
-                    <div className='mr-6'>
-                        <p>About Us</p>
-                    </div>
-                    <div className='mr-6'>
-                        <p>Services</p>
-                    </div>
-                    <div className='mr-6'>
-                        <p>Blog</p>
-                    </div>
-                    <div className='mr-6'>
-                        <p>Contacts</p>
-                    </div>
+                    <Link href='/'>
+                        <div className='mr-6'>
+                            <p>Home</p>
+                        </div>
+                    </Link>
+                    <Link href='/About'>
+                        <div className='mr-6'>
+                            <p>About Us</p>
+                        </div>
+                    </Link>
+                    <Link href='/Services'>
+                        <div className='mr-6'>
+                            <p>Services</p>
+                        </div>
+                    </Link>
+                    <Link href='/Blog'>
+                        <div className='mr-6'>
+                            <p>Blog</p>
+                        </div>
+                    </Link>
+                    <Link href='/Contacts'>
+                        <div className='mr-6'>
+                            <p>Contacts</p>
+                        </div>
+                    </Link>
                     <div className='mr-6 px-4 flex flex-row items-center justify-center py-2 border border-[#DB421B] rounded-full shadow-sm shadow-[#DB421B]'>
                         <p className='text-[#DB421B]'>Request a quote</p>
                         <BsClipboard className='text-[#DB421B] ml-2'/>
