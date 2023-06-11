@@ -98,9 +98,9 @@ const Contacts = () => {
                 </form>
             </div>
 
-            <div className='mt-8'>
-                <Testimonials />
-            </div>
+        </div>
+        <div className='mt-8 w-full'>
+            <Testimonials />
         </div>
     </div>
   )
