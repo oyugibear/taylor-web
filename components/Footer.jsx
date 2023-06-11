@@ -3,7 +3,7 @@ import { BsArrowBarRight, BsArrowRight, BsFacebook, BsInstagram, BsLinkedin, BsT
 
 const Footer = () => {
   return (
-    <div className='w-full h-full  px-4 py-12 flex items-center  justify-center bg-slate-50'>
+    <div className='w-full h-full  px-4 py-12 flex items-center  justify-center bg-slate-200'>
       <div className='max-w-[1440px] w-full flex flex-col md:flex-row items-center md:justify-between'>
         {/* About */}
         <div className='flex flex-col items-start'>

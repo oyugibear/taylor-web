@@ -65,7 +65,7 @@ const Services = () => {
                     </p>
 
                     <div className='flex flex-col md:flex-row mt-6 w-full'>
-                        <div className='flex flex-row md:flex-col md:max-w-fit md:pr-6 min-w-fit w-full overflow-x-auto pb-6 md:mr-6 border-b md:border-b-0 md:border-r border-gray-200'>
+                        <div className='flex flex-row md:flex-col md:max-w-fit md:pr-6 md:min-w-fit w-full overflow-x-auto pb-6 md:mr-6 border-b md:border-b-0 md:border-r border-gray-200'>
                             <div onClick={() => setSubType('Premoving')} className=' mr-6 md:mr-0 md:my-4 cursor-pointer w-fit'>
                                 <p className='whitespace-nowrap'>Pre Moving Survey</p>
                                 <hr className='border border-[#DB421B] w-[50px] hover:w-[80px] duration-150'/>
