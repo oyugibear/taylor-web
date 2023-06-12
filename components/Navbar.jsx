@@ -34,7 +34,9 @@ const Navbar = () => {
         
             <div className='hidden md:flex w-full py-4 my-2 px-2  md:px-8  flex-row justify-center items-center'>
                 <div className='max-w-[1720px] w-full flex flex-row justify-between'>
-                    <Image src='/assets/General/logo.svg' width={205} height={48}  alt='Taylor Movers Logo' />
+                    <Link href='/'>
+                        <Image src='/assets/General/logo.svg' width={205} height={48}  alt='Taylor Movers Logo' />
+                    </Link>
                     <div className='flex flex-row items-center text-sm'>
                         <Link href='/'>
                             <div className='mr-6'>
@@ -61,10 +63,12 @@ const Navbar = () => {
                                 <p>Contacts</p>
                             </div>
                         </Link>
-                        <div className='mr-6 px-4 flex flex-row items-center justify-center py-2 border border-[#DB421B] rounded-full shadow-sm shadow-[#DB421B] animate-pulse'>
-                            <p className='text-[#DB421B]'>Request a quote</p>
-                            <BsClipboard className='text-[#DB421B] ml-2'/>
-                        </div>
+                        <Link href='/Quote'>
+                            <div className='mr-6 cursor-pointer px-4 flex flex-row items-center justify-center py-2 border border-[#DB421B] rounded-full shadow-sm shadow-[#DB421B] animate-pulse'>
+                                <p className='text-[#DB421B]'>Request a quote</p>
+                                <BsClipboard className='text-[#DB421B] ml-2'/>
+                            </div>
+                        </Link>
 
                     </div>
                 </div>
@@ -125,17 +129,17 @@ const Navbar = () => {
                         {/* Problem here with Fa icons */}
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                <a href='https://www.linkedin.com/in/arthur-oyugi-993b81206/'>
+                                <a href='https://taylorea.com/'>
                                     <FaInstagram />
                                 </a>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                <a href='https://github.com/oyugibear'>
+                                <a href='https://taylorea.com/'>
                                     <FaTwitter />
                                 </a>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                <a href='mailto:jroyugi@gmail.com'>
+                                <a href='https://taylorea.com/'>
                                     <FaFacebook />
                                 </a>
                             </div>

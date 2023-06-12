@@ -52,7 +52,7 @@ const Mirage = () => {
                             </button>
                         </div>
                     </div>                  
-                    <Image src='/assets/home/mirage/pic.png' alt='Our services' width={383} height={289} className='w-full h-full' />
+                    <Image src='/assets/home/mirage/pic2.png' alt='Our services' width={383} height={289} className='w-full h-full' />
                 </div>
                 <div className='w-full h-full max-w-[383px] relative md:max-w-[519px] max-h-[289px] my-4 md:max-h-[458px] mx-4 '>
                 <div className=' min-w-[279px] min-h-[200px] rounded-lg bg-[#DB421B]/80 py-8 w-full bottom-0 max-w-[279px]   md:max-h-[275px] mx-auto p-2  absolute z-10'>
@@ -71,7 +71,7 @@ const Mirage = () => {
                             </button>
                         </div>
                     </div>                  
-                    <Image src='/assets/home/mirage/pic.png' alt='Our services' width={383} height={289} className='w-full h-full' />
+                    <Image src='/assets/home/mirage/pic3.png' alt='Our services' width={383} height={289} className='w-full h-full' />
                 </div>
             </div>
         </div>

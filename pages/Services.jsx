@@ -17,32 +17,33 @@ const Services = () => {
                     and logistics services efficiently.
                 </p>
             </div>
-            <div className='flex flex-row items-center w-full overflow-x-auto pb-4 mb-12'>
-                <div onClick={() => setType('Household Moving')} className="bg-black relative max-w-[219px] md:max-w-[419px] w-full h-full hover:animate-pulse cursor-pointer">
-                    <Image src="/assets/About/sa1.png" alt="Household Moving" width={419} height={419} className="md:max-w-[419px] max-w-full h-full object-cover" />
-                    <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4 ">
-                        <h3 className="text-white text-center">Household Moving</h3>
-                    </div>
-                </div>
-                <div onClick={() => setType('Office Moving')} className="bg-black relative max-w-[219px] md:max-w-[419px] w-full h-full hover:animate-pulse cursor-pointer">
-                    <Image src="/assets/About/sa1.png" alt="Office Moving" width={419} height={419} className="md:max-w-[419px] max-w-full h-full object-cover" />
-                    <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4 ">
-                        <h3 className="text-white text-center">Office Moving</h3>
-                    </div>
-                </div>
-                <div onClick={() => setType('Coporate Moving')} className="bg-black relative max-w-[219px] md:max-w-[419px] w-full h-full hover:animate-pulse cursor-pointer">
-                    <Image src="/assets/About/sa1.png" alt="Coporate Moving" width={419} height={419} className="md:max-w-[419px] max-w-full h-full object-cover" />
-                    <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4 ">
-                        <h3 className="text-white text-center">Coporate Moving</h3>
-                    </div>
-                </div>
-                <div onClick={() => setType('Warehouse Moving')} className="bg-black relative max-w-[219px] md:max-w-[419px] w-full h-full hover:animate-pulse cursor-pointer">
-                    <Image src="/assets/About/sa1.png" alt="Warehouse Moving" width={419} height={419} className="md:max-w-[419px] max-w-full h-full object-cover" />
-                    <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4 ">
-                        <h3 className="text-white text-center">Warehouse Moving</h3>
-                    </div>
-                </div>
-            </div>
+            <div className='flex flex-row items-center w-full h-full overflow-x-auto pb-4 mb-12'>
+    <div onClick={() => setType('Household Moving')} className="bg-black relative h-full hover:animate-pulse cursor-pointer">
+        <Image src="/assets/services/sa2.png" alt="Household Moving" width={419} height={419} className="h-full object-cover max-w-[200px] md:max-w-[419px]" />
+        <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4">
+            <h3 className="text-white text-center">Household Moving</h3>
+        </div>
+    </div>
+    <div onClick={() => setType('Office Moving')} className="bg-black relative h-full hover:animate-pulse cursor-pointer">
+        <Image src="/assets/services/sa3.png" alt="Office Moving" width={419} height={419} className="h-full object-cover max-w-[200px] md:max-w-[419px]" />
+        <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4">
+            <h3 className="text-white text-center">Office Moving</h3>
+        </div>
+    </div>
+    <div onClick={() => setType('Corporate Moving')} className="bg-black relative h-full hover:animate-pulse cursor-pointer">
+        <Image src="/assets/About/sa1.png" alt="Corporate Moving" width={419} height={419} className="h-full object-cover max-w-[200px] md:max-w-[419px]" />
+        <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4">
+            <h3 className="text-white text-center">Corporate Moving</h3>
+        </div>
+    </div>
+    <div onClick={() => setType('Warehouse Moving')} className="bg-black relative h-full hover:animate-pulse cursor-pointer">
+        <Image src="/assets/services/saa4.png" alt="Warehouse Moving" width={419} height={419} className="h-full object-cover max-w-[200px] md:max-w-[419px]" />
+        <div className="absolute bg-gradient-to-t from-[#DB421B] to-[#DB421B]/40 w-full bottom-0 py-4">
+            <h3 className="text-white text-center">Warehouse Moving</h3>
+        </div>
+    </div>
+</div>
+
             {type === 'Household Moving' ? (
                 <div className='flex flex-col items-start justify-start w-full'>
                     <h3 className='mb-4 text-xl'>Household Moving</h3>
