@@ -12,7 +12,7 @@ const Blog = () => {
             <div className='flex flex-col mb-6'>
                 <h2 className='text-2xl mb-2'>Our Blog</h2>
                 <p>
-                    Moving can be a daunting task, even for the most experienced movers. With that in mind, we've pulled 
+                    Moving can be a daunting task, even for the most experienced movers. With that in mind, we&apos;ve pulled 
                     together some resources that can come in handy, whether you are moving with us or not. The Taylor 
                     Movers blog is your one-stop information shop for all issues related to your move. Our moving articles 
                     will alleviate your stress and connect you with the best moving resources on the web. Everything is right 

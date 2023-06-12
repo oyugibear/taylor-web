@@ -84,7 +84,7 @@ const About = () => {
               
             </div>
             <div className='flex flex-col md:flex-row  items-center justify-center relative md:justify-evenly md:ml-4 md:h-[500px] bg-[#DB421B] rounded-[800px] text-white w-full max-w-[500px] mt-8 md:mt-0'>
-              <Image src='/assets/About/sa1.png' width={300} height={300} className='w-full h-full rounded-3xl'/>
+              <Image src='/assets/About/sa1.png' width={300} height={300} alt='Testimonial' className='w-full h-full rounded-3xl'/>
               <div className='absolute bottom-0 bg-[#DB421B]/30 text-white flex flex-col max-h-[189px] w-full py-10 px-4 md:px-8 rounded-3xl rounded-tr-none'>
                 <h3 className=' text-xl'>Mr. Benjamin Njuia</h3>
                 <p className='font-italic text-sm'>SVP Marketing</p>

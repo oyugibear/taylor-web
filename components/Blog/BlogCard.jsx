@@ -7,7 +7,7 @@ const BlogCard = () => {
   return (
         <Link href={`/Blog/${1}`}>
     <div  className='flex flex-col md:flex-row my-6'>
-        <Image src='/assets/Blogs/b1.png' width={350} height={350} className='mb-6 md:mb-0 cursor-pointer md:max-w-[350px] w-full'/>
+        <Image src='/assets/Blogs/b1.png' alt='background' width={350} height={350} className='mb-6 md:mb-0 cursor-pointer md:max-w-[350px] w-full'/>
         <div className='flex flex-col px-2 md:ml-4'>
             <p className='text-xs mb-2'>General Moving</p>
             <h3>

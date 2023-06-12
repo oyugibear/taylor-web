@@ -55,7 +55,7 @@ const Contacts = () => {
                             Email: msacc@taylorea.com
                         </p>
                     </div>
-                    <Image src='/assets/Contacts/map.png' width={669} height={368} className=' w-full md:max-w-[669px]  my-4' />
+                    <Image src='/assets/Contacts/map.png' alt='map' width={669} height={368} className=' w-full md:max-w-[669px]  my-4' />
                 </div>
             </div>
             <div className='flwe flex-col w-full px-4 mb-4'>
